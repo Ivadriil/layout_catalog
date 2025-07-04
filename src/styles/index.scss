@@ -30,7 +30,7 @@ $content-width: 200px;
 
   background-color: #fff;
   border: 1px solid #f3f3f3;
-  &__Photo {
+  &__photo {
     display: block;
     width: 160px;
     height: 134px;
@@ -41,7 +41,7 @@ $content-width: 200px;
     background-size: contain;
   }
 
-  &__Name {
+  &__name {
     margin-bottom: 4px;
     text-align: left;
     font-family: #{$item_hrift};
@@ -85,7 +85,7 @@ $content-width: 200px;
     background-image: url(../images/star-active.svg);
     background-repeat: no-repeat;
   }
-  &__revi {
+  &__review {
     font-family: #{$item_hrift};
 
     font-size: 10px;
@@ -128,7 +128,7 @@ $content-width: 200px;
       color: rgba(6, 11, 53, 1);
     }
   }
-  &__Botton {
+  &__botton {
     display: flex;
     text-decoration: none;
     align-items: center;
